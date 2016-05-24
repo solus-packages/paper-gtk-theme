@@ -1,8 +1,8 @@
 name       : paper-gtk-theme
-version    : 2.0.1
-release    : 1
+version    : 2.0.2
+release    : 2
 source     :
-    - https://github.com/snwh/paper-gtk-theme/archive/v2.0.1.tar.gz : 689f374e83f5b7256324a6b167ed9ee0190b1048f7149e3a4eb73acb6292f62d
+    - https://github.com/snwh/paper-gtk-theme/archive/v2.0.2.tar.gz : a75f68952a09544b6e846b9fbfda3632ce02d65a3bb167c2533760946bfe6533
 license    : GPL-3.0
 component  : desktop.theme
 summary    : Paper is a modern desktop theme suite. Its design is mostly flat with a minimal use of shadows for depth.
