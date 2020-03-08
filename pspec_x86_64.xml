@@ -2,19 +2,19 @@
     <Source>
         <Name>paper-gtk-theme</Name>
         <Packager>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Packager>
-        <License>GPL-3.0</License>
+        <License>GPL-3.0-only</License>
         <PartOf>desktop.theme</PartOf>
-        <Summary xml:lang="en">Paper is a modern desktop theme suite. Its design is mostly flat with a minimal use of shadows for depth.</Summary>
+        <Summary xml:lang="en">Paper is a modern desktop theme suite. Its design is mostly flat with  a minimal use of shadows for depth.</Summary>
         <Description xml:lang="en">Paper is a modern desktop theme suite. Its design is mostly flat with a minimal use of shadows for depth.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>paper-gtk-theme</Name>
-        <Summary xml:lang="en">Paper is a modern desktop theme suite. Its design is mostly flat with a minimal use of shadows for depth.</Summary>
+        <Summary xml:lang="en">Paper is a modern desktop theme suite. Its design is mostly flat with  a minimal use of shadows for depth.</Summary>
         <Description xml:lang="en">Paper is a modern desktop theme suite. Its design is mostly flat with a minimal use of shadows for depth.
 </Description>
         <PartOf>desktop.theme</PartOf>
@@ -1244,92 +1244,6 @@
             <Path fileType="data">/usr/share/themes/Paper/metacity-1/unshade_unfocused_prelight.png</Path>
             <Path fileType="data">/usr/share/themes/Paper/metacity-1/unshade_unfocused_pressed.png</Path>
             <Path fileType="data">/usr/share/themes/Paper/plank/dock.theme</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/close.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/close_focused.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/close_focused_normal.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/close_focused_prelight.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/close_focused_pressed.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/close_unfocused.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/close_unfocused_prelight.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/close_unfocused_pressed.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/dash-widgets.json</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_arrow_ltr_19.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_arrow_ltr_37.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_arrow_outline_ltr_19.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_arrow_outline_ltr_37.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_arrow_outline_rtl_19.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_arrow_outline_rtl_37.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_arrow_rtl_19.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_arrow_rtl_37.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_icon_back_150.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_icon_back_54.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_icon_edge_150.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_icon_edge_54.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_icon_glow_200.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_icon_glow_62.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_icon_selected_back_150.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_icon_selected_back_54.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_icon_shadow_200.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_icon_shadow_62.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_icon_shine_150.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_icon_shine_54.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_pip_ltr_19.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_pip_ltr_37.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_pip_rtl_19.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/launcher_pip_rtl_37.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/maximize.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/maximize_focused.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/maximize_focused_normal.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/maximize_focused_prelight.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/maximize_focused_pressed.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/maximize_unfocused.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/maximize_unfocused_prelight.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/maximize_unfocused_pressed.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/menu.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/menu_focused.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/menu_focused_normal.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/menu_focused_prelight.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/menu_focused_pressed.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/menu_prelight.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/menu_unfocused.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/menu_unfocused_prelight.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/menu_unfocused_pressed.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/minimize.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/minimize_focused.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/minimize_focused_normal.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/minimize_focused_prelight.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/minimize_focused_pressed.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/minimize_unfocused.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/minimize_unfocused_prelight.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/minimize_unfocused_pressed.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/minimized.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/progress_bar_fill.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/progress_bar_trough.svg</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/shade.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/shade_focused.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/shade_focused_normal.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/shade_focused_prelight.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/shade_focused_pressed.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/shade_unfocused.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/shade_unfocused_prelight.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/shade_unfocused_pressed.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/unmaximize.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/unmaximize_focused.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/unmaximize_focused_normal.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/unmaximize_focused_prelight.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/unmaximize_focused_pressed.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/unmaximize_unfocused.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/unmaximize_unfocused_prelight.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/unmaximize_unfocused_pressed.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/unshade.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/unshade_focused.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/unshade_focused_normal.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/unshade_focused_prelight.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/unshade_focused_pressed.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/unshade_unfocused.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/unshade_unfocused_prelight.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/unity/unshade_unfocused_pressed.png</Path>
-            <Path fileType="data">/usr/share/themes/Paper/xfce-notify-4.0/gtkrc</Path>
             <Path fileType="data">/usr/share/themes/Paper/xfwm4/bottom-active.xpm</Path>
             <Path fileType="data">/usr/share/themes/Paper/xfwm4/bottom-inactive.xpm</Path>
             <Path fileType="data">/usr/share/themes/Paper/xfwm4/bottom-left-active.xpm</Path>
@@ -1414,12 +1328,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2016-07-26</Date>
+        <Update release="5">
+            <Date>2020-03-08</Date>
             <Version>2.1.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Update>
     </History>
 </PISI>

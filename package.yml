@@ -1,11 +1,11 @@
 name       : paper-gtk-theme
 version    : 2.1.0
-release    : 4
+release    : 5
 source     :
     - https://github.com/snwh/paper-gtk-theme/archive/v2.1.0.tar.gz : e097f92552bfaaea1e01b431f2af1a109a7643331b9029ba207a82e3eccda197
-license    : GPL-3.0
+license    : GPL-3.0-only
 component  : desktop.theme
-summary    : Paper is a modern desktop theme suite. Its design is mostly flat with a minimal use of shadows for depth.
+summary    : Paper is a modern desktop theme suite. Its design is mostly flat with  a minimal use of shadows for depth.
 description: |
     Paper is a modern desktop theme suite. Its design is mostly flat with a minimal use of shadows for depth.
 setup      : |
@@ -14,3 +14,7 @@ build      : |
     %make
 install    : |
     %make_install
+
+    for i in unity xfce-notify-4.0 ; do
+        rm -r $installdir/usr/share/themes/Paper/$i
+    done
